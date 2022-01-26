@@ -8,8 +8,6 @@ Untuk CRUD belum selesai
 Database:
 MySQL
 
-Backend:
-1. PHP Native
+Backend: PHP Native
 
-Frontend:
-1. Bootstrap
+Frontend: Bootstrap
