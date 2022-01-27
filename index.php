@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Project Monitoring</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
 </head>
 <body>
     <section>
@@ -17,7 +17,6 @@
         <table class="table">
             <thead class="thead-light">
                 <tr>
-                    <th scope="col">ID</th>
                     <th scope="col">PROJECT NAME</th>
                     <th scope="col">CLIENT</th>
                     <th scope="col">PROJECT LEADER</th>
@@ -34,11 +33,6 @@
                 ?>
                 
                 <tr class="active">
-                    <td>
-                        <?php
-                            echo $record['id'];
-                        ?>
-                    </td>
                     <td>
                         <?php
                             echo $record['project_name'];
@@ -72,8 +66,8 @@
                         ?>
                     </td>
                     <td>
-                        <a href="edit.php?id=<?= $result["id"]; ?>" class="btn btn-success btn-sm" id="modal" onclick="return confirm('Yakin ingin mengedit data ini?');">Edit</a> 
-                        <a href="hapus.php?id=<?= $result["id"]; ?>" class="btn btn-danger btn-sm" id="delete_link" onclick="return confirm('Yakin ingin menghapus data ini?');">Hapus</a>       
+                        <a href="edit.php?id=<?= $record["id"]; ?>" class="btn btn-success btn-sm" id="modal" onclick="return confirm('Yakin ingin mengedit data ini?');">Edit</a> 
+                        <a href="hapus.php?id=<?= $record["id"]; ?>" class="btn btn-danger btn-sm" id="delete_link" onclick="return confirm('Yakin ingin menghapus data ini?');">Hapus</a>       
                     </td>
                 </tr>
                 <?php
