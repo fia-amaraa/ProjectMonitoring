@@ -21,37 +21,37 @@
                 <div class="form-group">
                     <label class="control-label col-sm-2" for="project_name">Project Name:</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="project_name" placeholder="Enter Project Name" name="project_name">
+                        <input type="text" class="form-control" id="project_name" placeholder="Enter Project Name" name="project_name" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label col-sm-2" for="client">Client:</label>
                     <div class="col-sm-10">          
-                        <input type="text" class="form-control" id="client" placeholder="Enter Client" name="client">
+                        <input type="text" class="form-control" id="client" placeholder="Enter Client" name="client" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label col-sm-2" for="project_leader">Project Leader:</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="project_leader" placeholder="Enter Project Leader" name="project_leader">
+                        <input type="text" class="form-control" id="project_leader" placeholder="Enter Project Leader" name="project_leader" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label col-sm-2" for="email">Email:</label>
                     <div class="col-sm-10">          
-                        <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+                        <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label col-sm-2" for="start_date">Start Date</label>
                     <div class="col-sm-10">
-                        <input type="date" class="form-control" id="start_date" name="start_date">
+                        <input type="date" class="form-control" id="start_date" name="start_date" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label col-sm-2" for="end_date">End Date:</label>
                     <div class="col-sm-10">          
-                        <input type="date" class="form-control" id="end_date" name="end_date">
+                        <input type="date" class="form-control" id="end_date" name="end_date" required>
                     </div>
                 </div>
                 <div class="form-group">        
