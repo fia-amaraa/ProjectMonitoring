@@ -8,6 +8,7 @@ Halaman index.php
 
 Halaman tambah_data.php (CREATE)
 ![image](https://user-images.githubusercontent.com/73092053/151290522-08a7ee8f-460e-42c6-b200-1fd13b26b069.png)
+![image](https://user-images.githubusercontent.com/73092053/151291178-3c6e68c4-452f-4789-bdb2-71adc1ee545e.png)
 ![image](https://user-images.githubusercontent.com/73092053/151290570-0128a22f-5243-4f40-8f95-b1c566d61123.png)
 ![image](https://user-images.githubusercontent.com/73092053/151290862-bf8cb05a-ed58-4aa3-a8f9-73a11dd3bc66.png)
 
