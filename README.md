@@ -4,7 +4,7 @@ Project Monitoring
 Untuk Update belum selesai
 
 Halaman index.php
-![image](https://user-images.githubusercontent.com/73092053/151175618-c15d0d4e-a974-46b0-a7be-f162906173a9.png)
+![image](https://user-images.githubusercontent.com/73092053/151290921-f5652309-1c76-434c-ae11-9ee97d6b5d1b.png)
 
 Halaman tambah_data.php (CREATE)
 ![image](https://user-images.githubusercontent.com/73092053/151290522-08a7ee8f-460e-42c6-b200-1fd13b26b069.png)
